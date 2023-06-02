@@ -45,8 +45,8 @@ printf "Launching app.py..."
 printf "\n%s\n" "${delimiter}"
 
 # Creates desktop icon for the user
-if [ ! -e "~/.local/share/applications/bark.desktop" ]; then
-    cat > ~/.local/share/applications/bark.desktop << EOF
+if [ ! -e "~/.local/share/applications/audioldm.desktop" ]; then
+    cat > ~/.local/share/applications/audioldm.desktop << EOF
 [Desktop Entry]
 Version=1.0
 Name=AudioLDM
@@ -59,8 +59,8 @@ EOF
 fi
 
 # yea yea make a loop
-if [ ! -e "~/Desktop/bark.desktop" ]; then
-    cat > ~/Desktop/bark.desktop << EOF
+if [ ! -e "~/Desktop/audioldm.desktop" ]; then
+    cat > ~/Desktop/audioldm.desktop << EOF
 [Desktop Entry]
 Version=1.0
 Name=AudioLDM
